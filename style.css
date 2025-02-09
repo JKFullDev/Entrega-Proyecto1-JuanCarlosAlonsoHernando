@@ -11,7 +11,7 @@
 body {
     font-family: var(--fuentePrincipal);
     line-height: 1.6;
-    color: #333;
+    color: var(--colorLetra);
 }
 
 /* Variables CSS */
@@ -23,12 +23,8 @@ body {
     --fuentePrincipal: 'Roboto', sans-serif;
     --textoPeq: small;
     --textoMed: medium;
+    --textoGrand: x-large;
     --radioBorde: 3px;
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --font-size: 16px;
-    --font-size-small: 14px;
-    --font-size-large: 18px;
 
 }
 
@@ -90,7 +86,7 @@ body {
     list-style: none;
     text-align: left;
     padding: 1rem;
-    font-size: var(--font-size-small);
+    font-size: var(--textoPeq);
     ;
 }
 
@@ -111,9 +107,24 @@ main {
 }
 
 h1 {
-    text-align: center;
-    font-size: var(--font-size-large);
+    text-align: left;
+    font-size: var(--textoGrand);
     margin-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: var(--textoMed);
+}
+
+h3 {
+    text-align: left;
+    font-size: var(--textoPeq);
+}
+
+p {
+    text-align: left;
+    font-size: var(--textoPeq);
 }
 
 #ordenarPor {
@@ -466,21 +477,10 @@ th {
 
     /*-----------------FOOTER---------------*/
 
-    #footer {
-        width: 90%;
-        margin: auto;
-    }
 
-    #footer1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-
-    }
 
     .botones {
-        margin-top: auto;
+        margin-left: 5%;
 
     }
 
@@ -488,5 +488,66 @@ th {
         width: 80%;
     }
 
+    #terminosEtc {
+        border-collapse: separate;
+        border-spacing: 20px;
+        padding: 2rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        text-align: left;
+
+    }
+
+    .cab {
+        font-weight: bold;
+    }
+
+    td,
+    th {
+        padding: 10px;
+        font-weight: lighter;
+        font-size: var(--textoMed);
+    }
+
+    #listyBotFooter {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 2rem;
+        padding: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .textoBot {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: lighter;
+        font-size: var(--textoMed);
+    }
+
+    .botones>button {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        width: 30rem;
+    }
+
+    #logoFooter {
+        display: flex;
+        margin-top: 2rem;
+        padding: 1rem;
+        width: 100%;
+        border-top: var(--lineasYborders);
+        border-bottom: var(--lineasYborders);
+        text-align: left;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    #copyright {
+        font-size: var(--textoPeq);
+    }
 
 }
