@@ -1,0 +1,297 @@
+ <main>
+
+        <!-- Inicio -->
+        <section id="inicio" style="margin-bottom: 100px">
+            <h2>Inicio</h2>
+            <p>
+                Bienvenido a nuestra comunidad de coleccionistas apasionados por el
+                arte del tiempo. En este espacio, celebramos la historia, la elegancia
+                y la precisión que convierten a los relojes en verdaderas obras
+                maestras. Descubre un mundo donde cada tic-tac cuenta una historia, y
+                cada pieza es un tesoro único. Ya seas un conocedor experimentado o
+                estés iniciando tu viaje en el coleccionismo, aquí encontrarás
+                inspiración y recursos para nutrir tu pasión.
+            </p>
+        </section>
+
+        <!-- Quienes Somos -->
+        <section id="quienesSomos" style="margin-bottom: 100px">
+            <h2>Quiénes somos</h2>
+            <p>
+                Somos un equipo de apasionados del coleccionismo de relojes, unidos
+                por el amor a la ingeniería, el diseño y la historia que cada pieza
+                representa. Nuestra misión es conectar a los entusiastas del tiempo,
+                ofreciendo una plataforma donde compartir conocimiento, admirar
+                colecciones excepcionales y adquirir relojes únicos. Creemos que cada
+                reloj tiene una historia que merece ser contada, y queremos ayudarte a
+                encontrar el siguiente capítulo de tu colección.
+            </p>
+        </section>
+
+
+        <!-- Catalogo -->
+        <section id="catalogo" style="text-align: center; margin-bottom: 100px;">
+            <h2>Catálogo</h2>
+            <p style="text-align: justify">
+                Explora nuestra cuidadosa selección de relojes, donde el arte de la
+                relojería se encuentra con la exclusividad. Desde piezas vintage que
+                transportan a épocas pasadas, hasta modelos contemporáneos con la
+                última tecnología, nuestro catálogo está diseñado para satisfacer a
+                los coleccionistas más exigentes. Cada reloj ha sido inspeccionado
+                minuciosamente para garantizar autenticidad y calidad. Déjate fascinar
+                por estas obras de arte que trascienden el tiempo.
+            </p>
+
+            <!-- Rolex -->
+            <article style="
+            display: inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Rolex</h3>
+                <figure>
+                    <img src="https://img.chrono24.com/images/uhren/32916218-v75meo6lv8e93jkww6ai0nt8-ExtraLarge.jpg"
+                        style="
+                width: 100%;
+                height: 200px;
+                display: inline;
+                border-radius: 30px;;
+              " alt="Reloj Rolex Submariner" title="Rolex Submariner">
+                    <figcaption>Rolex Submariner</figcaption>
+                </figure>
+                <p style="text-align: justify; width: 100%; margin: 0">
+                    Llevar un reloj como este es señal de éxito. Con su lenguaje de
+                    diseño clásico, Rolex encarna tanto la sobriedad como la confianza.
+                    Además, la marca emplea movimientos de la máxima precisión. La caja
+                    del Submariner en particular, con su impecable artesanía, impresiona
+                    hasta a los más exigentes.
+                </p>
+            </article>
+
+            <!-- Omega -->
+            <article style="
+            display: inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Omega</h3>
+                <figure>
+                    <img src="https://www.analogshift.com/cdn/shop/files/AS09205_40960209_OMEGA_SPEEDMASTERPROFESSIONAL_310.30.41.50.01.001-6.jpg?v=1699634934"
+                        style="
+                width: 100%;
+                height: 200px;
+                display: inline;
+                border-radius: 30px;
+              " alt="Omega Speedmaster Professional"
+                        title="Reloj Omega Speedmaster Professional con brazalete de acero inoxidable">
+                    <figcaption>Omega Speedmaster Professional</figcaption>
+                </figure>
+                <p style="text-align: justify; width: 100%; margin: 0">
+                    Tras haber acompañado a la NASA en varias misiones lunares, sigue
+                    siendo el único reloj de pulsera homologado para astronautas en el
+                    espacio. Las primeras versiones del Speedmaster Professional se
+                    presentaron en 1957. Desde entonces, ha experimentado un desarrollo
+                    continuo, con diversos movimientos, y ha conquistado los corazones
+                    de los entusiastas de la relojería de todo el mundo.
+                </p>
+            </article>
+
+            <!-- Patek Phiplippe -->
+            <article style="
+            display:inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Patek Philippe</h3>
+                <figure>
+                    <img src="https://www.chronosect.com/wp-content/uploads/2021/06/6119R_001_Patek_Philippe_Calatrava_Orizzontale_Chronosect.jpg"
+                        style="
+                width: 100%;
+                height: 200px;
+                display: inline;
+                border-radius: 30px;
+              " alt="Reloj Patek Philippe Calatrava" title="Patek Philippe Calatrava">
+                    <figcaption>Patek Philippe Calatrava</figcaption>
+                </figure>
+                <p style="text-align: justify">
+                    Inspirado en el diseño de los relojes de bolsillo, que todavía eran
+                    habituales cuando debutó en 1932, da una sensación casi de
+                    ingravidez en la muñeca e impresiona por su discreta elegancia y la
+                    fiabilidad de su movimiento.
+                </p>
+            </article>
+
+            <!-- Audemars Piguet -->
+            <article style="
+            display: inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Audemars Piguet</h3>
+                <figure>
+                    <img src="https://swisswatches-magazine.com/wp-content/uploads/2020/11/Audemars-Piguet-Royal-Oak-Chronograph-Limited-Edition-Ice-Blue-Dial-26317BC-Wristshot.jpg"
+                        style="width: 100%; height: 200px; display: inline;border-radius: 30px"
+                        alt="Reloj Audemars Piguet Royal Oak" title="Audemars Piguet Royal Oak">
+                    <figcaption>Audemars Piguet Royal Oak</figcaption>
+                </figure>
+                <p style="text-align: justify; width: 100%; margin: 0">
+                    Como primer reloj de acero del segmento de lujo, causó un gran
+                    impacto cuando debutó a principios de la década de 1970, con un
+                    precio superior al de muchos relojes de oro de la época, a pesar de
+                    estar fabricado en acero.
+                </p>
+            </article>
+
+            <!-- Zenith El Primero -->
+            <article style="
+            display: inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Zenith El Primero</h3>
+                <figure>
+                    <img src="https://magazine.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65,w=980/2022/07/aws-original-image-2022-07-21T141141.634-1024x765.jpeg"
+                        style="width: 100%; height: 200px; display: inline;border-radius: 30px"
+                        alt="Reloj Zenith El Primero" title="Zenith El Primero">
+                    <figcaption>Zenith El Primero</figcaption>
+                </figure>
+                <p style="text-align: justify; width: 100%; margin: 0">
+                    Lanzado en 1969, es un ícono de la relojería, reconocido como el primer cronógrafo automático de
+                    alta frecuencia, capaz de medir décimas de segundo gracias a sus 36,000 alternancias por hora. Su
+                    diseño combina precisión técnica y estética clásica, reflejando la innovación de Zenith.
+                </p>
+            </article>
+
+            <!-- Rolex Cosmograph Daytona -->
+            <article style="
+            display: inline-block;
+            width: 400px;
+            padding: 40px;
+            vertical-align: top;
+          ">
+                <h3>Rolex Cosmograph Daytona</h3>
+                <figure>
+                    <img src="https://magazine.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65,w=900/2014/06/Rolex-Daytona-16520-White-Floating-Cosmograph-1024x1024.jpeg"
+                        style="width: 100%; height: 200px; display: inline;border-radius: 30px"
+                        alt="Reloj Rolex Cosmograph Daytona" title="Rolex Cosmograph Daytona">
+                    <figcaption>Rolex Cosmograph Daytona</figcaption>
+                </figure>
+                <p style="text-align: justify; width: 100%; margin: 0">
+                    Es un reloj legendario, diseñado en 1963 para satisfacer las necesidades de los pilotos de carreras.
+                    Equipado con un cronógrafo de alta precisión y un bisel con escala taquimétrica, permite medir
+                    velocidades con exactitud. Su diseño elegante y funcional, junto con su asociación con el
+                    automovilismo, lo han convertido en un símbolo de lujo y rendimiento atemporal.
+                </p>
+            </article>
+        </section>
+
+        <!-- Historia -->
+        <section id="historia" style="margin-bottom: 100px">
+            <h2>Historia</h2>
+            <p style="text-align: justify">
+                La relojería es una disciplina que combina ciencia, arte y tradición,
+                con raíces que se remontan a la antigüedad. Desde los primeros relojes
+                de sol hasta los complejos mecanismos de los relojes mecánicos, cada
+                avance técnico ha reflejado la evolución de la humanidad. En esta
+                sección, exploramos los hitos más importantes de la historia de la
+                relojería y cómo cada época ha dejado su huella en los diseños y
+                funciones de estas piezas icónicas.
+            </p>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" style="margin-bottom: 50px">
+            <h2>Contacto</h2>
+            <article>
+                <h3>¡Responderemos tus dudas!</h3>
+                <form style="
+              width: 300px;
+              margin: 0 auto;
+              border: 5px solid rgb(134, 134, 134);
+              border-radius: 30px;
+              padding: 20px;
+              color: white;
+              background-color: #333;
+            " action="https://cuestionario_enviado" target="_blank">
+                    <fieldset style="border: 5px solid white; border-radius: 30px">
+                        <legend>Información de contacto</legend>
+                        <select name="Trato" required style="
+                  display: block;
+                  text-align: left;
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                ">
+                            <option value="">Trato</option>
+                            <option value="Sr.">Sr.</option>
+                            <option value="Sra.">Sra.</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                        <input type="text" name="nombre" placeholder="Nombre" required
+                            style="margin-bottom: 10px; width: 100%">
+                        <input type="text" name="apellidos" placeholder="Apellidos" required
+                            style="margin-bottom: 10px; width: 100%">
+                        <input type="email" name="correo" placeholder="Correo electrónico" required
+                            style="margin-bottom: 10px; width: 100%">
+                        <input type="date" name="fecha_nacimiento" required style="margin-bottom: 10px; width: 100%">
+                        <textarea id="text" name="Mensaje" placeholder="Cuéntanos..." rows="3" required
+                            style="width: 100%; margin-bottom: 10px;"></textarea>
+                        <input type="submit" value="Contacta" style="margin-bottom: 5px">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+
+        <!-- Info Contacto -->
+        <div style="margin-bottom: 50px;">
+            <a href="#encabezado">Volver arriba</a>
+        </div>
+        <div style="
+          justify-content: center;
+          gap: 30px;
+          padding: 20px;
+          background-color: #333;
+          color: white;
+        ">
+            <h3>Información contacto</h3>
+            <p>Teléfono: +34 123 45 67 89</p>
+            <p>Email: admin@time.collection</p>
+            <p>Dirección: Calle Master Full Stack, nº 10</p>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div style="
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          padding: 20px;
+          background-color: #333;
+        ">
+            <a href="https://x.com/?lang=es" target="_blank" aria-label="Twitter">
+                <img src="https://www.lowi.es/blog/wp-content/uploads/2023/10/twitter-X-1000x625.jpeg" alt="X"
+                    style="width: 50px; height: 50px; border-radius: 50px">
+            </a>
+            <a href="https://m.facebook.com/login/?locale=es_ES" target="_blank" aria-label="Facebook">
+                <img src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"
+                    alt="Facebook" style="width: 50px; height: 50px; border-radius: 50px">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"
+                    alt="Instagram" style="width: 50px; height: 50px; border-radius: 50px">
+            </a>
+        </div>
+
+        <!-- Copyrith -->
+        <div>
+            <p>&copy; 2024 Time Collection. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>

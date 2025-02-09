@@ -1,0 +1,492 @@
+/* Estilos globales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Variables CSS */
+:root {
+
+    --colorFondo: rgb(245, 245, 245);
+    --colorLetra: black;
+    --lineasYborders: 1px solid rgb(107, 107, 107);
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --textoPeq: small;
+    --textoMed: medium;
+    --radioBorde: 3px;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-size: 16px;
+    --font-size-small: 14px;
+    --font-size-large: 18px;
+
+}
+
+/* Estilos del header */
+#navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#barraCabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#barraCabecera li {
+    margin: 0 10px;
+}
+
+#buscador {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#encontrarTienda,
+#login {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: var(--colorLetra);
+    font-weight: 600;
+}
+
+#login:hover {
+    color: #2ecc71
+}
+
+#idioma {
+    background-image: url(https://laflamencadeborgona.es/cdn/shop/articles/Bandera-Espana-La-Flamenca-de-Borgona_-Bandera-de-Espana_-Cruz-de-Borgona_-Patricia-Munoz_-VOX_-Santiago-Abascal--1685742924_7e67cc76-acee-43fc-9a43-5e0fc0b59a19.png?v=1685744221);
+    background-size: contain;
+    width: 3rem;
+    color: transparent;
+}
+
+/* Estilos para la sidebar */
+
+#sidebar {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.filtros {
+    list-style: none;
+    text-align: left;
+    padding: 1rem;
+    font-size: var(--font-size-small);
+    ;
+}
+
+.filtros>li {
+    border: var(--lineasYborders);
+    padding: 1rem;
+}
+
+.filtros>li:hover {
+    background-color: var(--colorFondo);
+}
+
+
+
+/* Estilos para el main (productos) */
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: var(--font-size-large);
+    margin-bottom: 20px;
+}
+
+#ordenarPor {
+    width: 99%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#ordenar {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--colorFondo);
+}
+
+#prodContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.prodItem>img {
+    width: 100%;
+    height: auto;
+    background-color: var(--colorFondo);
+    border-radius: var(--radioBorde);
+}
+
+.prodItem>h5>a {
+    color: var(--colorLetra);
+}
+
+.prodItem {
+    /* display: flex;
+    flex-flow: row w; */
+    border: none;
+    border-radius: var(--radioBorde);
+}
+
+.prodItem:hover {
+    border: var(--lineasYborders);
+}
+
+.prodItem>h5>a:hover {
+    color: blue;
+}
+
+.prodItem>h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.descProd {
+    margin-top: 0.5rem;
+    font-size: x-small;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+
+/* Estilos del footer */
+
+
+
+#terminosEtc {
+    border-collapse: separate;
+    border-spacing: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    text-align: left;
+
+}
+
+.cab {
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 10px;
+    font-weight: lighter;
+    font-size: var(--textoMed);
+}
+
+#listyBotFooter {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textoBot {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: var(--textoMed);
+}
+
+.botones>button {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 30rem;
+}
+
+#logoFooter {
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    border-top: var(--lineasYborders);
+    border-bottom: var(--lineasYborders);
+    text-align: left;
+    align-items: center;
+    justify-content: space-between
+}
+
+#copyright {
+    font-size: var(--textoPeq);
+}
+
+/* Media Queries */
+
+/* Para pantallas móviles menores de 375px */
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+
+    /*-----------------HEADER---------------*/
+    #barraCabecera {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #buscador {
+        width: auto;
+    }
+
+    #barraCabecera li {
+        margin: 5px 0;
+    }
+
+
+    /*-----------------ASIDE-----------*/
+    #sidebar {
+        margin-top: 2rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    /*-----------------MAIN---------------*/
+    #ordenar {
+        margin: 1rem auto;
+    }
+
+    /*-----------------FOOTER---------------*/
+
+    #footer {
+        width: 90%;
+        margin: auto;
+    }
+
+    #listyBotFooter {
+        font-size: 12px;
+    }
+
+    #terminosEtc {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #terminosEtc th {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #terminosEtc {
+
+        font-size: var(--textoPeq);
+    }
+
+    .botones>p {
+        font-size: var(--textoPeq);
+    }
+
+    .botones>button {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        width: 80%;
+    }
+
+    #logoFooter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+/*asignacion para uso de grid*/
+#header {
+    grid-area: header;
+}
+
+
+#main {
+    grid-area: main;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+
+
+/* Para tablets entre 375px y 768px */
+@media (max-width: 768px) and (min-width: 375px) {
+
+    /*---------------DISPOSICION-------------*/
+    #grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template:
+            "header header header" auto
+            "sidebar main main" auto
+            "footer footer footer" auto /
+            30% auto
+    }
+
+
+    /*-----------------HEADER---------------*/
+    #barraCabecera {
+        flex-wrap: wrap;
+        justify-content: stretch;
+    }
+
+    #buscador {
+        width: auto;
+    }
+
+    #barraCabecera li {
+        margin: 5px;
+    }
+
+
+    /*-----------------ASIDE---------------*/
+    #sidebar {
+        padding: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /*-----------------MAIN---------------*/
+    #prodContainer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 20px;
+
+    }
+
+
+    /*-----------------FOOTER---------------*/
+
+    #footer {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .botones>p {
+        font-size: var(--textoPeq);
+    }
+
+    .botones>button {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        width: 80%;
+    }
+
+    #logoFooter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Para pantallas de escritorio mayores a 768px */
+@media (min-width: 768px) {
+
+    /*---------------DISPOSICION-------------*/
+    #grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template:
+            "header header header" auto
+            "sidebar main main" auto
+            "footer footer footer" auto /
+            30% auto
+    }
+
+    /*----------------HEADER---------------*/
+    #barraCabecera {
+        justify-content: space-around;
+    }
+
+    #buscador {
+        width: auto;
+    }
+
+    /*-----------------ASIDE---------------*/
+
+    #sidebar {
+        padding: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    /*-----------------MAIN---------------*/
+    .products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-card {
+        padding: 20px;
+    }
+
+    /*-----------------FOOTER---------------*/
+
+    #footer {
+        width: 90%;
+        margin: auto;
+    }
+
+    #footer1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .botones {
+        margin-top: auto;
+
+    }
+
+    .botones>button {
+        width: 80%;
+    }
+
+
+}

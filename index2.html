@@ -7,63 +7,76 @@
     <title>Foot Locker</title>
     <meta name="description" content="Moda y más moda ">
     <meta name="keywords" content="footLocker, moda, zapatillas, chandal, ropa">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/foot-locker-logo.svg">
 </head>
 
-<body id="grid-container">
+<body class="grid-container">
+
     <header id="header">
-        <!-- Barra de navegación -->
-        <nav id="navbar">
-            <ul id="barraCabecera">
-                <li>
-                    <a href="/">
-                        <img src="https://www.footlocker.es/images/FL/logo.svg" alt="Logo de Foot Locker">
-                    </a>
-                </li>
-                <li>
-                    <input type="text" id="buscador" placeholder="Buscar" maxlength="50">
-                </li>
 
-                <li>
-                    <button id="idioma" class="textoCab">ESP</button>
-                </li>
+        <ul id="barraCabecera">
 
-                <li>
-                    <select id="encontrarTienda" class="textoCab">
-                        <option value="">Encontrar una tienda</option>
-                        <option value="mad">Madrid</option>
-                        <option value="vlc">Valencia</option>
-                        <option value="sev">Sevilla</option>
-                    </select>
-                </li>
+            <li>
+                <img src="https://www.footlocker.es/images/FL/logo.svg" alt="imagenFL">
+            </li>
+            <li>
+                <input type="text" id="buscador" placeholder="Buscar" maxlength="50">
+            </li>
 
-                <li>
-                    <button id="login" class="textoCab">Inicia sesión</button>
-                </li>
-            </ul>
-        </nav>
+            <li>
+                <p id="idioma" class="textoCab">Español</p>
+            </li>
+
+            <li>
+                <select id="encontrarTienda" class="textoCab">
+                    <option value="">Encontrar una tienda</option>
+                    <option value="mad">Madrid</option>
+                    <option value="vlc">Valencia</option>
+                    <option value="sev">Sevilla</option>
+                </select>
+            </li>
+
+            <li>
+                <p class="textoCab">Inicia sesión</p>
+            </li>
+        </ul>
     </header>
 
 
-    <!-- SIDEBAR -->
-    <aside id="sidebar">
-        <h2>Zapatillas Hombre Nike</h2>
-        <p class="textoCab">Mostrando 12 resultados</p>
-        <br>
-        <h5>Filtrar los resultados</h5>
 
-        <ul id="filtros2" class="filtros">
-            <li>Marca </li>
-            <li>Talla</li>
-            <li>Tipo de producto</li>
-            <li>Precio</li>
-            <li>Color</li>
-            <li>Valoración cliente</li>
+    <nav id="navbar">
+
+        <ul id="barraNavbar">
+            <li>
+                <p class="textoCab">Ofertas</a>
+            </li>
+            <li>
+                <p class="textoCab">Hombre</a>
+            </li>
+            <li>
+                <p class="textoCab">Mujer</a>
+            </li>
+            <li>
+                <p class="textoCab">Niños</a>
+            </li>
+            <li>
+                <p class="textoCab">Novedades</a>
+            </li>
+            <li>
+                <p class="textoCab">Marcas</a>
+            </li>
+            <li>
+                <p class="textoCab">Best Sellers</a>
+            </li>
+            <li>
+                <p class="textoCab">Sports</a>
+            </li>
         </ul>
 
-    </aside>
+    </nav>
 
+    <!-- MAIN -->
     <main id="main">
 
         <section id="ordenarPor">
@@ -224,8 +237,32 @@
 
     </main>
 
+    <!-- SIDEBAR -->
+    <aside id="sidebar">
+        <h2>Hombres Nike</h2>
+        <p class="textoCab">Mostrando 12 resultados</p>
+        <br>
+        <h5>Restringir Los Resultados</h5>
+
+        <ul id="filtros1" class="filtros">
+            <li>Zapatillas</li>
+            <li>Ropa</li>
+            <li>Recogida en tienda</li>
+        </ul>
+
+        <ul id="filtros2" class="filtros">
+            <li>Marca </li>
+            <li>Talla</li>
+            <li>Tipo de producto</li>
+            <li>Precio</li>
+            <li>Color</li>
+            <li>Valoración cliente</li>
+        </ul>
+
+    </aside>
+
     <footer id="footer">
-        <section id="footer1">
+        <section>
             <article id="listyBotFooter">
                 <table id="terminosEtc">
                     <tr>
@@ -258,13 +295,14 @@
                         <th>Saldo de tarjeta regalo</th>
                     </tr>
                 </table>
-            </article>
-            <article class="botones">
-                <p class="cab">Programa FLX</p>
-                <p class="textoBot">¡Envío gratuito, recompensas exclusivas y mucho más!</p>
-                <button>MÁS INFORMACIÓN</button>
-                <p class="textoBot">FLX CASH</p>
-                <button>FLX CASH</button>
+
+                <div class="botones">
+                    <p class="cab">Programa FLX</p>
+                    <p class="textoBot">¡Envío gratuito, recompensas exclusivas y mucho más!</p>
+                    <button>MÁS INFORMACIÓN</button>
+                    <p class="textoBot">FLX CASH</p>
+                    <button>FLX CASH</button>
+                </div>
             </article>
 
         </section>
@@ -278,6 +316,7 @@
 
         </section>
     </footer>
+
 </body>
 
 </html>
